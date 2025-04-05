@@ -19,7 +19,7 @@ const Navbar = () => {
         {/* Center Section: Navigation Links */}
         <ul className="hidden md:flex space-x-6">
           <li>
-            <a href="#home" className="hover:text-purple-500">
+            <a href="https://www.youtube.com/" className="hover:text-purple-500">
               Home
             </a>
           </li>
