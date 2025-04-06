@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="flex items-center space-x-4">
           <div className="w-10 h-10 bg-gray-700 rounded-full">
             <img
-              src="\assets\logo.jpg"
+              src="https://github.com/SiddharthP121/siddhartha-portfolio/blob/main/public/assets/logo.jpg?raw=true"
               alt=""
               className="rounded-full"
             />
