@@ -1,5 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=M+PLUS+Code+Latin:wght@100..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Karla:ital,wght@0,200..800;1,200..800&family=M+PLUS+Code+Latin:wght@100..700&family=Outfit:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Wavefont:wght@4..1000&display=swap');
+
 @import "tailwindcss";
+
+body{
+    user-select: none;
+}
 
 .navbar{
    
@@ -9,3 +14,26 @@
     font-style: normal;
    
 }
+
+.name-con{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700 ;
+    font-style: normal;
+}
+
+.subheading{
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.description{ 
+    font-family: "Figtree", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
