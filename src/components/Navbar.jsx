@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className="bg-gray-800 text-white w-full shadow-md fixed top-0 z-10">
       <div className="md:container navbar mx-auto flex flex-wrap items-center justify-between py-4 px-6">
-        {/* Left Section: Logo and Name */}
+     // Left Section: Logo and Name
         <div className="flex items-center space-x-4">
           <div className="w-10 h-10 bg-gray-700 rounded-full">
             <img
@@ -16,7 +16,7 @@ const Navbar = () => {
           <div className="text-lg font-bold">{" <Siddharth /> "}</div>
         </div>
 
-        {/* Center Section: Navigation Links */}
+        // Center Section: Navigation Links
         <ul className="hidden md:flex space-x-6">
           <li>
             <a href="https://www.youtube.com/" className="hover:text-purple-500">
