@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <div className="pt-20">
-      <div className="absolute top-0 z-[-2] h-screen w-screen rotate-180 transform bg-white bg-[radial-gradient(60%_120%_at_50%_50%,hsla(0,0%,100%,0)_0,rgba(252,205,238,.5)_100%)]"></div>
+      <div className="absolute top-0 z-[-2] h-full w-screen rotate-180 transform bg-white bg-[radial-gradient(60%_120%_at_50%_50%,hsla(0,0%,100%,0)_0,rgba(252,205,238,.5)_100%)]"></div>
 
       <div className="home w-full">
         <div className="heading flex flex-col items-center justify-center py-[15vh] text-center text-[#0a192f]">
@@ -22,7 +22,7 @@ const Home = () => {
           </span>
         </div>
       </div>
-      <div className="absolute top-0 z-[-2] h-screen w-screen rotate-180 transform bg-white bg-[radial-gradient(60%_120%_at_50%_50%,hsla(0,0%,100%,0)_0,rgba(252,205,238,.5)_100%)]"></div>
+      
       <button className="cta flex items-center justify-center gap-2 rounded-full bg-[#0a192f] px-6 py-3 text-white transition duration-300 ease-in-out hover:bg-[#4d5776] group">
         <span>PROJECTS</span>
         <lord-icon
