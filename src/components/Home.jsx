@@ -10,11 +10,11 @@ const Home = () => {
           <span className="flex name-con text-6xl font-bold text-[#0a192f]">
             Hey! I am Siddharth Potphode
           </span>
-          <span className="subheading text-xl mt-4 mb-2">
+          <span className="subheading text-xl mt-4 mb-2 px-4">
             "Shaping Ideas Into Reality: Web Dev & Android Explorer"
           </span>
           <br />
-          <span className="description text-lg font-light text-[#4d5776] max-w-[900px]">
+          <span className="description text-lg font-light text-[#4d5776] max-w-[900px] px-7">
             I'm passionate about full-stack web development and currently honing
             my skills in creating dynamic, user-friendly websites. As I continue
             to grow, I'm excited to dive into Android development, expanding my
@@ -22,6 +22,7 @@ const Home = () => {
           </span>
         </div>
       </div>
+      <div className="absolute top-0 z-[-2] h-screen w-screen rotate-180 transform bg-white bg-[radial-gradient(60%_120%_at_50%_50%,hsla(0,0%,100%,0)_0,rgba(252,205,238,.5)_100%)]"></div>
       <button className="cta flex items-center justify-center gap-2 rounded-full bg-[#0a192f] px-6 py-3 text-white transition duration-300 ease-in-out hover:bg-[#4d5776] group">
         <span>PROJECTS</span>
         <lord-icon
