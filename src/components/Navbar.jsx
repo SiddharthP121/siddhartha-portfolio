@@ -1,4 +1,13 @@
 import React, { useState } from "react";
+import { IoLogoLinkedin } from "react-icons/io5";
+import { ImGithub } from "react-icons/im";
+import { MdEmail } from "react-icons/md";
+import { BsTwitterX } from "react-icons/bs";
+import { IoLogoWhatsapp } from "react-icons/io";
+import { FaInstagram } from "react-icons/fa";
+
+
+
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -84,6 +93,50 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
+            <div className="partition h-0.5 bg-gray-500 w-[37vw] my-3"></div>
+            <div className="socials flex flex-col space-y-4">
+  <h3 className="font-bold">Connect with me</h3>
+  <ul className="space-y-2">
+    <li className="flex items-center space-x-2">
+      <span className="logo-social">
+        <IoLogoLinkedin />
+      </span>
+      <a href="#" className="hover:text-purple-500">LinkedIn</a>
+    </li>
+    <li className="flex items-center space-x-2">
+      <span className="logo-social">
+        <ImGithub />
+      </span>
+      <a href="#" className="hover:text-purple-500">GitHub</a>
+    </li>
+    <li className="flex items-center space-x-2">
+      <span className="logo-social">
+        <MdEmail />
+      </span>
+      <a href="#" className="hover:text-purple-500">E-mail</a>
+    </li>
+    <li className="flex items-center space-x-2">
+      <span className="logo-social">
+        <BsTwitterX />
+      </span>
+      <a href="#" className="hover:text-purple-500">Twitter</a>
+    </li>
+    <li className="flex items-center space-x-2">
+      <span className="logo-social">
+      <IoLogoWhatsapp />
+
+      </span>
+      <a href="#" className="hover:text-purple-500">WhatsApp</a>
+    </li>
+    <li className="flex items-center space-x-2">
+      <span className="logo-social">
+      <FaInstagram />
+
+      </span>
+      <a href="#" className="hover:text-purple-500">Instagram</a>
+    </li>
+  </ul>
+</div>
           </div>
         )}
       </div>
