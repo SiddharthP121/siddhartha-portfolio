@@ -37,7 +37,15 @@ body{
     font-style: normal;
   }
 
-  /* From Uiverse.io by alexmaracinaru */ 
+  #name{
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(190, 11, 190);
+  }
+
+  
 .cta {
     position: relative;
     margin: auto;
