@@ -37,24 +37,24 @@ const Navbar = () => {
         {/* Center Section: Navigation Links */}
         <ul className="hidden md:flex space-x-6">
           <li>
-            <a href="#home" className="hover:text-purple-500">
+            <span className="hover:text-purple-500 cursor-pointer">
               HOME
-            </a>
+            </span>
           </li>
           <li>
-            <a href="#about" className="hover:text-purple-500">
+            <span className="hover:text-purple-500 cursor-pointer">
               ABOUT
-            </a>
+            </span>
           </li>
           <li>
-            <a href="#contact" className="hover:text-purple-500">
+            <span className="hover:text-purple-500 cursor-pointer">
               PROJECT
-            </a>
+            </span>
           </li>
           <li>
-            <a href="#projects" className="hover:text-purple-500">
+            <span className="hover:text-purple-500 cursor-pointer">
               CONTACT
-            </a>
+            </span>
           </li>
         </ul>
 
