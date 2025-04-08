@@ -2,8 +2,8 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="pt-20">
-      <div className="absolute top-0 z-[-2] h-full w-screen rotate-180 transform bg-white bg-[radial-gradient(60%_120%_at_50%_50%,hsla(0,0%,100%,0)_0,rgba(252,205,238,.5)_100%)]"></div>
+    <div className="pt-20 h-[100vh]">
+     
 
       <div className="home w-full">
         <div className="heading flex flex-col items-center justify-center py-[15vh] text-center text-[#0a192f]">

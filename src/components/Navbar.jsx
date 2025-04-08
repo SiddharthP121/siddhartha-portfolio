@@ -17,7 +17,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-transparent text-black w-full shadow-md fixed top-0 z-10">
+    <nav className=" text-black w-full shadow-md fixed top-0 z-10">
+       <div className="absolute top-0 z-[-2] h-full w-screen rotate-180 transform bg-white bg-[radial-gradient(60%_120%_at_50%_50%,hsla(0,0%,100%,0)_0,rgba(252,205,238,.5)_100%)]"></div>
       <div className="md:container navbar mx-auto flex flex-wrap items-center justify-between py-4 px-6">
         {/* Left Section: Logo and Name */}
         <div className="flex items-center space-x-4">

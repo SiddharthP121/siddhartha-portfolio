@@ -103,6 +103,15 @@ body{
   .cta:active {
     transform: scale(0.95);
   }
+
+  .heading{
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
   
   
 
