@@ -9,7 +9,8 @@ const About = () => {
           <h2 className="text-5xl p-2 heading">About Me</h2>
           <div className="h-1 w-[10vw] bg-purple-500 rounded-lg my-3"></div>
           <p className="description text-lg font-light text-[#4d5776] text-center my-[2vh] sm:my-[8vh] max-w-[800px]">
-            Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology.
+            Here you will find more information about me, what I do, and my
+            current skills mostly in terms of programming and technology.
           </p>
         </div>
 
@@ -77,10 +78,10 @@ const About = () => {
             <button className="cta flex items-center justify-center gap-2 rounded-full bg-[#0a192f] px-6 py-3 text-white transition duration-300 ease-in-out hover:bg-[#4d5776] group">
               <span>Contact</span>
               <lord-icon
-                src="https://cdn.lordicon.com/gvtjlyjf.json"
-                trigger="loop-on-hover"
+                src="https://cdn.lordicon.com/vcdutftw.json"
+                trigger="hover"
                 colors="primary:#000000"
-                style={{ width: "35px", height: "24px" }}
+                style={{ width: "30px", height: "30px" }}
               ></lord-icon>
             </button>
           </div>

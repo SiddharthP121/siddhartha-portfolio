@@ -12,7 +12,7 @@ const Home = () => {
             "Shaping Ideas Into Reality: Web Dev & Android Explorer"
           </span>
           <br />
-          <span className="description text-base sm:text -lg font-light text-[#4d5776] max-w-[900px] px-7">
+          <span className="description text-base sm:text-lg font-light text-[#4d5776] max-w-[900px] px-7">
             I'm passionate about full-stack web development and currently honing
             my skills in creating dynamic, user-friendly websites. As I continue
             to grow, I'm excited to dive into Android development, expanding my
@@ -21,7 +21,7 @@ const Home = () => {
         </div>
       </div>
 
-      <button className="cta flex items-center justify-center gap-2 rounded-full bg-[#0a192f] px-6text-white transition duration-300 ease-in-out hover:bg-[#4d5776] group">
+      <button className="cta flex items-center justify-center gap-2 rounded-full bg-[#0a192f] px-6 py-3 text-white transition duration-300 ease-in-out hover:bg-[#4d5776] group">
         <span>PROJECTS</span>
         <lord-icon
           src="https://cdn.lordicon.com/gvtjlyjf.json"
@@ -30,7 +30,7 @@ const Home = () => {
           style={{ width: "35px", height: "24px" }}
         ></lord-icon>
       </button>
-      <div className="h-1 w-[60vw] mx-auto bg-purple-500 rounded-lg my-[5vh] sm:my-[1vh]"></div>
+      <div className="division h-1 w-[60vw] mx-auto bg-purple-500 rounded-lg my-[5vh] sm:my-[1vh] mt-6"></div>
     </div>
   );
 };
