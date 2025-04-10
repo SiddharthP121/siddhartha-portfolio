@@ -11,8 +11,8 @@ const Project = () => {
           project showcases my skills and creativity in development. Feel free
           to explore them and reach out if you have any questions or feedback!
         </p>
-          {/* Project container: 1 */}
-        <div className="project-card flex flex-wrap justify-around items-start gap-8 w-full">
+        {/* Project container: 1 */}
+        <div className="my-10 sm:my-20 project-card flex flex-wrap justify-around items-start gap-8 w-full">
           {/* Project Image */}
           <div className="project-Img flex-col sm:flex-1 flex justify-center items-center">
             <img
@@ -23,8 +23,10 @@ const Project = () => {
           </div>
 
           {/* Project Title and Description */}
-          <div className="j project-about flex-1 flex flex-col justify-center items-start">
-            <h1 className="sub-heading mx-5 sm:mr-[5vw] text-2xl font-bold mb-4">Save-Pass</h1>
+          <div className="project-about flex-1 flex flex-col justify-center items-start">
+            <h1 className="sub-heading mx-5 sm:mr-[5vw] text-2xl font-bold mb-4">
+              Save-Pass --{" "}
+            </h1>
             <p className="description mx-5 sm:mr-[5vw] text-lg font-light text-[#4d5776]">
               Save-Pass is a password manager that allows users to securely
               store and manage their passwords. It uses encryption to protect
@@ -40,21 +42,22 @@ const Project = () => {
           </div>
         </div>
 
-
-                {/* Project container: 1 */}
-                <div className="project-card flex flex-wrap justify-around items-start gap-8 w-full">
+        {/* Project container: 2 */}
+        <div className="project-card my-10 sm:my-20 flex flex-wrap justify-around items-start gap-8 w-full">
           {/* Project Image */}
           <div className="project-Img flex-col sm:flex-1 flex justify-center items-center">
             <img
               className="w-[90%] h-auto "
-              src="https://github.com/SiddharthP121/siddhartha-portfolio/blob/main/public/assets/Passmanager.png?raw=true"
+              src="https://github.com/SiddharthP121/siddhartha-portfolio/blob/main/public/assets/We-con.png?raw=true"
               alt="Project Thumbnail"
             />
           </div>
 
           {/* Project Title and Description */}
-          <div className="j project-about flex-1 flex flex-col justify-center items-start">
-            <h1 className="sub-heading mx-5 sm:mr-[5vw] text-2xl font-bold mb-4">Save-Pass</h1>
+          <div className=" project-about flex-1 flex flex-col justify-center items-start">
+            <h1 className="sub-heading mx-5 sm:mr-[5vw] text-2xl font-bold mb-4">
+              We-Con -- Connect the people worldwide
+            </h1>
             <p className="description mx-5 sm:mr-[5vw] text-lg font-light text-[#4d5776]">
               Save-Pass is a password manager that allows users to securely
               store and manage their passwords. It uses encryption to protect
@@ -69,7 +72,6 @@ const Project = () => {
             </button>
           </div>
         </div>
-
       </div>
     </>
   );
