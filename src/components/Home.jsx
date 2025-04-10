@@ -8,7 +8,7 @@ const Home = () => {
           <span className="flex name-con text-4xl sm:text-6xl font-bold text-[#0a192f]">
             Hey! I am Siddharth Potphode
           </span>
-          <span className="subheading text-lg sm:text-xl mt-4 mb-2 px-4">
+          <span className="sub-heading text-lg sm:text-xl mt-4 mb-2 px-4">
             "Shaping Ideas Into Reality: Web Dev & Android Explorer"
           </span>
           <br />
