@@ -30,7 +30,7 @@ const Home = () => {
           style={{ width: "35px", height: "24px" }}
         ></lord-icon>
       </button>
-      <div className="division h-1 w-[60vw] mx-auto bg-purple-500 rounded-lg my-[5vh] sm:my-[1vh] mt-6"></div>
+     <div className="division h-1 w-[60vw] mx-auto bg-purple-500 rounded-lg mt-12"></div>
     </div>
   );
 };
