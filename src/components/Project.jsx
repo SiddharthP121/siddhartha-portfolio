@@ -13,7 +13,7 @@ const Project = () => {
 
           <div className="project-card">
             <div className="project-Img">
-              <img className='w-[25vw]' src="https://github.com/SiddharthP121/siddhartha-portfolio/blob/main/public/assets/dopefolio%20(1).jpg?raw=true" alt="" />
+              <img className='w-[25vw]' src="" alt="" />
             </div>
             <div className="project-about">
               <h1 className="text-2xl font-bold mb-4">Portfolio</h1>
