@@ -1,14 +1,41 @@
 import React from "react";
 import projectsData from "../Project/Project";
+import { Bounce, ToastContainer, toast } from "react-toastify";
+
 
 const Project = () => {
   const handleDetails = (id) => {
     console.log(`Project ID: ${id}`);
+    toast.warn('This section of the page is undergoing maintainence, please try again later!', {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      transition: Bounce,
+      });
+
   };
 
   return (
     <>
       <div className="project flex flex-col justify-center items-center">
+              <ToastContainer
+                position="top-right"
+                autoClose={3000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick={false}
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="light"
+                transition={Bounce}
+              />
         <h2 className="text-3xl sm:text-5xl p-2 heading">Projects</h2>
         <div className="h-1 w-[10vw] bg-purple-500 rounded-lg my-3"></div>
         <p className="description text-lg font-light text-[#4d5776] mx-5 sm:mr-[5vw] text-center my-[2vh] sm:my-[8vh] max-w-[800px]">

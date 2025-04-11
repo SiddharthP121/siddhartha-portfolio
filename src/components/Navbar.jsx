@@ -164,12 +164,12 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-purple-500 block">
+                <a href="#projects" className="hover:text-purple-500 block">
                   PROJECT
                 </a>
               </li>
               <li>
-                <a href="#projects" className="hover:text-purple-500 block">
+                <a href="#contact" className="hover:text-purple-500 block">
                   CONTACT
                 </a>
               </li>
