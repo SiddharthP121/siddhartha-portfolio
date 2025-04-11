@@ -36,27 +36,27 @@ const Navbar = () => {
 
         {/* Center Section: Navigation Links */}
         <ul className="hidden md:flex space-x-6">
-          <li>
-            <span className="hover:text-purple-500 cursor-pointer">
-              HOME
-            </span>
-          </li>
-          <li>
-            <span className="hover:text-purple-500 cursor-pointer">
-              ABOUT
-            </span>
-          </li>
-          <li>
-            <span className="hover:text-purple-500 cursor-pointer">
-              PROJECT
-            </span>
-          </li>
-          <li>
-            <span className="hover:text-purple-500 cursor-pointer">
-              CONTACT
-            </span>
-          </li>
-        </ul>
+  <li>
+    <a href="#home" className="hover:text-purple-500 cursor-pointer">
+      HOME
+    </a>
+  </li>
+  <li>
+    <a href="#about" className="hover:text-purple-500 cursor-pointer">
+      ABOUT
+    </a>
+  </li>
+  <li>
+    <a href="#projects" className="hover:text-purple-500 cursor-pointer">
+      PROJECTS
+    </a>
+  </li>
+  <li>
+    <a href="#contact" className="hover:text-purple-500 cursor-pointer">
+      CONTACT
+    </a>
+  </li>
+</ul>
 
         {/* Menu Button */}
         <button onClick={toggleMenu} className="text-black focus:outline-none">

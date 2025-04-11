@@ -50,6 +50,8 @@ const Project = () => {
           </div>
         ))}
       </div>
+      <div className="division h-1 w-[60vw] mx-auto bg-gray-500 rounded-lg mt-12"></div>
+
     </>
   );
 };
