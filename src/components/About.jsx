@@ -30,7 +30,7 @@ const About = () => {
               to learn new technologies and improve my skills.
             </p>
             <button className="cta flex items-center justify-center gap-2 rounded-full bg-[#0a192f] px-6 py-3 text-white transition duration-300 ease-in-out hover:bg-[#4d5776] group">
-              <span>Contact</span>
+              <span><a href="#contact">Contact</a></span>
               <lord-icon
                 src="https://cdn.lordicon.com/vcdutftw.json"
                 trigger="hover"
