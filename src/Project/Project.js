@@ -2,10 +2,11 @@ const projectsData = [
     {
       id: 1,
       name: "Revoo Multimedia",
-      img: "https://github.com/SiddharthP121/siddhartha-portfolio/blob/main/public/assets/protfolio.png?raw=true",
+      img: "https://github.com/SiddharthP121/siddhartha-portfolio/blob/main/public/assets/revoo%20final.png?raw=true",
       description:
-        "This page is deployed on GitHub Pages and uses ReactJS (for frontend), NodeJS, ExpressJS (for backend), and Tailwind CSS (for designs and responsiveness). The page depicts my overall progress, work, and skills that I have learned. Various animated icons and buttons are used to create a modern frontend. The code is updated on GitHub and is open for all.",
-    },
+      "This is a multimedia project which basically handles the media provided by the user. It is fully fledged website use tech stack for frontend ReactJs and Tailwind CSS, for backend ExpressJS and NodeJS, for database mongoose and for hosting I used Render. The page is fully responsive and can be used in multiple devises. It has fully functional backend for user account handling and media uploading.",
+      live: "https://revoo-com.onrender.com/" 
+     },
     {
       id: 2,
       name: "Portfolio -- Siddharth Potphode",

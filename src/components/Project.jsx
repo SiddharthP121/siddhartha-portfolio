@@ -67,6 +67,7 @@ const Project = () => {
               <p className="description mx-5 sm:mr-[5vw] text-lg font-light text-[#4d5776]">
                 {project.description}
               </p>
+                {project.live && <a className="text-blue-400 mx-5 sm:mr-[5vw] cursor-pointer" href={project.live}>Try it here</a>}
               <button
                 onClick={()=> handleDetails(project.id)}
                 className="ui-btn self-end mr-[8vw] mt-[8vh]"
